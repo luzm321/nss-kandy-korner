@@ -91,5 +91,30 @@
               "type": "Jelly Candy"
           }
     ],
-    "customers": []
+    "customers": [
+        {
+            "id": 1,
+            "name": "Luz Angelique Madrazo",
+            "address": "123 Sweets Drive",
+            "email": "luz@madrazo.com"
+        },
+        {
+            "id": 2,
+            "name": "Elena Shapiro",
+            "address": "200 Candy Land Way",
+            "email": "elena@shapiro.com"
+        },
+        {
+            "id": 3,
+            "name": "Enzo Kim",
+            "address": "2121 Lollipop Lane",
+            "email": "enzo@kim.com"
+        },
+        {
+            "id": 4,
+            "name": "Jericho Rosales",
+            "address": "350 Taffy Blvd",
+            "email": "jericho@rosales.com"
+        }
+    ]
 }

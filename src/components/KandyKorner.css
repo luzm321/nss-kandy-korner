@@ -1,0 +1,12 @@
+* {
+    font-family: 'Courgette', cursive;
+}
+
+html {
+    background-image: url("/src/components/images/kandyBgd.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
