@@ -1,0 +1,26 @@
+.home_div {
+    margin-left: 30em;
+    margin-top: 10em;
+    padding: 0.5em;
+}
+
+.header {
+    font-size: 45px;
+    margin-left: 3em;
+}
+
+.slogan {
+    font-size: 30px;
+    margin-left: -0.8em;
+}
+
+.directions {
+    font-size: 20px;
+    text-align: center;
+    margin-left: -25em;
+    margin-top: 1em;
+}
+
+.greeting {
+    margin-left: 8em;
+}
