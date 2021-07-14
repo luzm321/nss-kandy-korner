@@ -1,12 +1,126 @@
+/* Cards Styling */
 .locations {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  
+  margin-top: 6em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 .location {
-      flex-basis: 28%;
-      margin: 1em;
-      padding: 1em;
-      border: 1px solid rgb(185, 115, 180);
+  flex-basis: 28%;
+  margin: 2.9em;
+  padding: 1em;
+  border: 2px solid rgb(185, 115, 180);;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(138, 191, 216);
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.location:hover {
+  background-color: rgb(238, 230, 221);
+  box-shadow: 0.3rem 0.3rem 0.5rem rgb(61, 60, 60);
+  border: 3px solid black;
+}
+
+.locationHeader {
+  font-size: 40px;
+  margin: 2em 0 2em 17em;
+}
+
+.addLocBut {
+color: black;
+background-color: #5bb1c7;
+border-radius: 50px;
+font-size: 20px;
+padding: 5px;
+width: 11%;
+cursor: pointer;
+margin-left: 33.5em;
+margin-bottom: 2em;
+}
+
+.addLocBut:hover {
+border: 2px solid rgb(48, 126, 216);
+color: white;
+background-color: rgb(43, 41, 41);
+}
+
+/* Add New Location Form Styling */
+
+.locationForm__title {
+  font-size: 40px;
+  margin: 2em 0 1em 16em;
+}
+
+.form-group {
+  display: flex;
+  margin-left: 25em;
+}
+
+.locationName {
+  font-size: 28px;
+  margin-top: 8px;
+}
+
+#locationName {
+  font-size: 21px;
+  width: 25%;
+  background-color:rgb(238, 218, 194);
+  border-radius: 20px;
+  margin-left: 2em;
+}
+
+.locationAddress {
+  font-size: 28px;
+  margin-top: 8px;
+}
+
+#locationAddress {
+  font-size: 21px;
+  width: 25%;
+  background-color:rgb(238, 218, 194);
+  margin-left: 16px;
+  border-radius: 20px;
+}
+
+.btn {
+  color: black;
+  background-color: #5bb1c7;
+  border-radius: 50px;
+  font-size: 20px;
+  padding: 5px;
+  width: 10%;
+  cursor: pointer;
+  margin: 1em 0 2em 33.5em;
+}
+
+.btn:hover {
+  border: 2px solid rgb(48, 126, 216);
+  color: white;
+  background-color: rgb(43, 41, 41);
+}
+
+.edit__btn {
+  color: black;
+  background-color: #5bb1c7;
+  border-radius: 50px;
+  font-size: 20px;
+  padding: 5px;
+  width: 10%;
+  cursor: pointer;
+  margin: 2em 0 2em 0em;
+}
+
+.remove__btn {
+  color: black;
+  background-color: #5bb1c7;
+  border-radius: 50px;
+  font-size: 20px;
+  padding: 5px;
+  width: 12%;
+  cursor: pointer;
+  margin: 2em 0 2em 0em;
+  margin-right: 20px;
 }

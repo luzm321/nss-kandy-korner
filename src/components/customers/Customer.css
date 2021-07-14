@@ -1,0 +1,30 @@
+/* Cards Styling */
+.customers {
+    margin-top: -1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .customer {
+    flex-basis: 28%;
+    margin: 2.9em;
+    padding: 1em;
+    border: 2px solid rgb(185, 115, 180);;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(138, 191, 216);
+    cursor: pointer;
+    border-radius: 30px;
+  }
+  
+  .customer:hover {
+    background-color: rgb(238, 230, 221);
+    box-shadow: 0.3rem 0.3rem 0.5rem rgb(61, 60, 60);
+    border: 3px solid black;
+  }
+  
+  .customerHeader {
+    font-size: 40px;
+    margin: 2em 0 2em 17em;
+  }

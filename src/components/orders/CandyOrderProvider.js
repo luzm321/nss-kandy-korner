@@ -31,6 +31,4 @@ export const CandyOrderProvider = (props) => {
             {props.children}
         </CandyOrderContext.Provider>
     )
-
-
 };
