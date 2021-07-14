@@ -1,0 +1,188 @@
+.h1, h1 {
+    font-size: 2.5rem;
+}
+
+fieldset {
+    min-width: 0;
+    padding: 1rem 0;
+    margin: 0;
+    border: 0;
+}
+
+.form--login {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form--login > fieldset > input[type="email"],
+.form--login > fieldset > input[type="password"] {
+    width: 25em;
+}
+
+.label--login {
+    width: 8rem;
+    display: inline-block;
+}
+
+.form-control {
+    display: block;
+    width: 20%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    -webkit-transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    border-radius: 20px;
+    margin-left: -10em;
+}
+
+.container--login {
+    text-align: center;
+    margin-top: 1.5em;
+    margin-left: 10em;
+}
+
+/* Logo */
+
+/* .form--login {
+    background-position-x: right;
+    background-image: url(kandy.png);
+    z-index: 1;
+    min-height: 25rem;
+    min-width: 45rem;
+    background-color: hsla(0,0%,100%,0.40);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    margin-top: 2em;
+    margin-left: 20em;
+    
+} */
+
+.form--register {
+    margin-top: 7em;
+    margin-left: 14em;
+}
+
+.button--close {
+    position: relative;
+    bottom: -2rem;
+}
+
+.dialog {
+    min-width: 15rem;
+    min-height: 5rem;
+}
+
+.email {
+    margin-left: -6.2em;
+    font-size: 25px;
+    margin-bottom: 2em;
+}
+
+.appHeader {
+    margin-left: -3em;
+    margin-top: 3em;
+    font-size: 50px;
+}
+
+.sign_in {
+    margin-left: -3em;
+    font-size: 35px;
+}
+
+.login {
+    margin-left: -3em;
+    color: black;
+    background-color: #5bb1c7;
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 5px;
+    width: 50%;
+    cursor: pointer;
+}
+
+.login:hover {
+    border: 2px solid rgb(48, 126, 216);
+    color: white;
+    background-color: rgb(43, 41, 41);
+}
+
+.link--register {
+    margin-left: -16em;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: rgb(175, 111, 167);
+}
+
+/* Registration Styling */
+
+.registerHeader {
+    margin-left: -7em;
+}
+
+.firstName {
+    margin-left: -18em;
+    font-size: 22px;
+}
+
+.lastName {
+    margin-left: -18em;
+    font-size: 22px;
+}
+
+.email_address {
+    margin-left: -19.5em;
+    margin-bottom: 2em;
+    font-size: 22px;
+}
+
+.firstName_input {
+    margin-left: 0.5em;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.lastName_input {
+    margin-left: 1em;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.email_address_input {
+    margin-left: 0.8em;
+    width: 10%;
+    border-radius: 5px;
+    margin-top: 2em;
+    font-size: 18px;
+}
+
+.login_but {
+    margin-left: -18em;
+    margin-top: 1em;
+    color: black;
+    background-color: #5bb1c7;
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 5px;
+    width: 12%;
+    cursor: pointer;
+}
+
+.login_but:hover {
+    border: 2px solid rgb(48, 126, 216);
+    color: white;
+    background-color: rgb(43, 41, 41);
+}
