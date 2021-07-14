@@ -54,7 +54,7 @@ export const EmployeeForm = () => {
         locationId: locationId,
         manager: employee.manager,
         fullTime: employee.fullTime,
-        hourlyRate: employee.hourlyRate.toFixed(2)
+        hourlyRate: employee.hourlyRate
       }
       addEmployee(newEmployee)
         .then(() => history.push("/employees"))
@@ -66,13 +66,13 @@ export const EmployeeForm = () => {
       <h2 className="employeeForm__title">New Employee</h2>
       <fieldset>
         <div className="form-group">
-          <label htmlFor="name">Employee name:</label>
+          <label className="employeeName" htmlFor="name">Employee name:</label>
           <input type="text" id="name" required autoFocus className="form-control" placeholder="Employee name" value={employee.name} onChange={handleControlledInputChange} />
         </div>
       </fieldset>
       <fieldset>
         <div className="form-group">
-          <label htmlFor="location">Assign to location: </label>
+          <label className="employeeLocation" htmlFor="location">Assign to location: </label>
           <select name="locationId" id="locationId" className="form-control" value={employee.locationId} onChange={handleControlledInputChange}>
             <option value="0">Select a location</option>
             {locations.map(location => (
@@ -85,7 +85,7 @@ export const EmployeeForm = () => {
       </fieldset>
       <fieldset>
             <div className="form-group">
-              <label htmlFor="manager">Manager Position: </label>
+              <label className="managerPosition" htmlFor="manager">Manager Position: </label>
               <select name="manager" id="manager" className="form-control" value={employee.manager} onChange={handleControlledInputChange}>
                 <option value="0">False</option>
                 <option value="1">True</option> 
@@ -94,7 +94,7 @@ export const EmployeeForm = () => {
         </fieldset>
         <fieldset>
             <div className="form-group">
-              <label htmlFor="fullTime">Full Time Employee: </label>
+              <label className="fullTimeStatus" htmlFor="fullTime">Full Time Employee: </label>
               <select name="fullTime" id="fullTime" className="form-control" value={employee.fullTime} onChange={handleControlledInputChange}>
                 <option value="0">False</option>
                 <option value="1">True</option> 
@@ -103,7 +103,7 @@ export const EmployeeForm = () => {
         </fieldset>
         <fieldset>
             <div className="form-group">
-              <label htmlFor="hourlyRate">Hourly Rate:</label>
+              <label className="rate" htmlFor="hourlyRate">Hourly Rate:</label>
               <input type="text" id="hourlyRate" required autoFocus className="form-control" placeholder="HourlyRate" value={employee.hourlyRate} onChange={handleControlledInputChange} />
             </div>
         </fieldset>     

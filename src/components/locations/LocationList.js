@@ -14,6 +14,8 @@ export const LocationList = () => {
   }, []);
 
   return (
+    <>
+    <h2 className="locationHeader">Locations</h2>
     <div className="locations">
       {console.log("LocationList: Render", locations)}
       {/* <h2>Locations</h2> */}
@@ -23,5 +25,6 @@ export const LocationList = () => {
         })
       }
     </div>
+    </>
   )
 };
