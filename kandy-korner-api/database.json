@@ -1,0 +1,95 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "productTypeId": 1,
+            "name": "Life Savers",
+            "price": 0.25
+    
+        },
+        {
+            "id": 2,
+            "productTypeId": 2,
+            "name": "Mentos Gum",
+            "price": 0.75
+    
+        },
+        {
+            "id": 3,
+            "productTypeId": 3,
+            "name": "Cadbury",
+            "price": 5.35
+    
+        },
+        {
+            "id": 4,
+            "productTypeId": 4,
+            "name": "Sprite",
+            "price": 1.55
+    
+        },
+        {
+            "id": 4,
+            "productTypeId": 5,
+            "name": "Haribo Goldbears",
+            "price": 3.45
+        }
+    ],
+    "locations": [
+        {
+            "id": 1,
+            "name": "Nashville East",
+            "address": "500 SweetTooth Way",
+            "squareFootage": 5000,
+            "handicapAccessible": true
+        },
+        {
+            "id": 2,
+            "name": "Nashville West",
+            "address": "400 Sugar Rush Lane",
+            "squareFootage": 4000,
+            "handicapAccessible": false
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "name": "Ian Somerhalder",
+            "locationId": 1,
+            "manager": true,
+            "fullTime": true,
+            "hourlyRate": 15
+        },
+        {
+            "id": 2,
+            "name": "Henry Cavill",
+            "locationId": 2,
+            "manager": false,
+            "fullTime": false,
+            "hourlyRate": 12
+        }
+    ],
+    "productTypes": [
+        {
+            "id": 1,
+            "type": "Hard Candy"
+          },
+          {
+            "id": 2,
+            "type": "Gum"
+          },
+          {
+            "id": 3,
+            "type": "Chocolate"
+          },
+          {
+            "id": 4,
+            "type": "Sodas"
+          },
+          {
+              "id": 5,
+              "type": "Jelly Candy"
+          }
+    ],
+    "customers": []
+}
